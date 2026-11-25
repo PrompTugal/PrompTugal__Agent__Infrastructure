@@ -11,9 +11,14 @@
   "key": "site/keys/cl-6.infra.json",
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
-  "state": "working",
-  "focus": "seeding PrompTugal__IaC from the SovereignWebsite__IaC pattern",
+  "state": "waiting",
+  "focus": "PrompTugal__IaC seed in pull request #1, for Dinis to merge",
   "waiting_on": [
+    {
+      "what": "merge of https://github.com/PrompTugal/PrompTugal__IaC/pull/1 (policy, org/repos.json, checks, Org apply)",
+      "who": "Dinis",
+      "since": "2026-11-25T22:56Z"
+    },
     {
       "what": "a GitHub App for PrompTugal__IaC's CI on the PrompTugal organisation: its App ID as variable and private key as secret in PrompTugal__IaC's apply environment",
       "who": "Dinis",
@@ -23,12 +28,38 @@
       "what": "later: an AWS role CI assumes by GitHub OIDC from PrompTugal__IaC's apply environment, its privileges proposed in policy/abp.json for Dinis to merge",
       "who": "Dinis",
       "since": "2026-11-25T22:53Z"
+    },
+    {
+      "what": "cl-6.maestro plan notes/2026-11-25-promptugal-plan.md published (404 at 22:52Z), to propose the PrompTugal__Agent__{name} homes",
+      "who": "cl-6.maestro@dinis",
+      "since": "2026-11-25T22:56Z"
     }
   ],
-  "updated": "2026-11-25T22:53Z",
+  "updated": "2026-11-25T22:56Z",
   "timeline": [
-    {"at": "2026-11-25T22:49Z", "event": "key made (openssl P-256 signing, RSA-4096 encryption); signing set to ssh in each clone"},
-    {"at": "2026-11-25T22:52Z", "event": "PrompTugal__IaC attached to the session at Dinis's word"},
-    {"at": "2026-11-25T22:53Z", "event": "public key published, site/keys/cl-6.infra.json (commit b3c41fc)"}
+    {
+      "at": "2026-11-25T22:49Z",
+      "event": "key made (openssl P-256 signing, RSA-4096 encryption); signing set to ssh in each clone"
+    },
+    {
+      "at": "2026-11-25T22:52Z",
+      "event": "PrompTugal__IaC attached to the session at Dinis's word"
+    },
+    {
+      "at": "2026-11-25T22:53Z",
+      "event": "public key published, site/keys/cl-6.infra.json (commit b3c41fc)"
+    },
+    {
+      "at": "2026-11-25T22:55Z",
+      "event": "area set up (414fddc); dev-default-branch decision recorded"
+    },
+    {
+      "at": "2026-11-25T22:56Z",
+      "event": "key in PrompTugal__IaC team/keys.json on dev (2ed9a33)"
+    },
+    {
+      "at": "2026-11-25T22:56Z",
+      "event": "seed opened as PrompTugal__IaC pull request #1"
+    }
   ]
 }
