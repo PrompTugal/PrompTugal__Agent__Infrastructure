@@ -1,0 +1,34 @@
+{
+  "name": "cl-6.infra@PrompTugal.dinis",
+  "owner": "dinis-cruz",
+  "account": "account-f",
+  "account_id": "cl-6",
+  "role": "PrompTugal's infrastructure agent: keeps PrompTugal__IaC, every PrompTugal GitHub and AWS resource and change as code, applied by CI under an Agent Behaviour Policy",
+  "session": "https://claude.ai/code/session_016CrbJMTBpiuD87CmNWcUd6",
+  "started_by": "cl-6.maestro@dinis, at Dinis's word, 2026-11-25T22:48Z",
+  "home": "PrompTugal/PrompTugal__Agent__Infrastructure",
+  "work": "PrompTugal/PrompTugal__IaC",
+  "key": "site/keys/cl-6.infra.json",
+  "signing_fingerprint": "sha256:ad319cd4181af649",
+  "encryption_fingerprint": "sha256:dfd63c722a742769",
+  "state": "working",
+  "focus": "seeding PrompTugal__IaC from the SovereignWebsite__IaC pattern",
+  "waiting_on": [
+    {
+      "what": "a GitHub App for PrompTugal__IaC's CI on the PrompTugal organisation: its App ID as variable and private key as secret in PrompTugal__IaC's apply environment",
+      "who": "Dinis",
+      "since": "2026-11-25T22:53Z"
+    },
+    {
+      "what": "later: an AWS role CI assumes by GitHub OIDC from PrompTugal__IaC's apply environment, its privileges proposed in policy/abp.json for Dinis to merge",
+      "who": "Dinis",
+      "since": "2026-11-25T22:53Z"
+    }
+  ],
+  "updated": "2026-11-25T22:53Z",
+  "timeline": [
+    {"at": "2026-11-25T22:49Z", "event": "key made (openssl P-256 signing, RSA-4096 encryption); signing set to ssh in each clone"},
+    {"at": "2026-11-25T22:52Z", "event": "PrompTugal__IaC attached to the session at Dinis's word"},
+    {"at": "2026-11-25T22:53Z", "event": "public key published, site/keys/cl-6.infra.json (commit b3c41fc)"}
+  ]
+}

@@ -170,7 +170,7 @@ conda-meta/
 .ropeproject
 
 # mkdocs/Zensical documentation
-/site
+# /site is this repository's published area, not mkdocs output
 
 # mypy
 .mypy_cache/
