@@ -12,17 +12,12 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "waiting",
-  "focus": "PrompTugal__IaC seed in pull request #1, for Dinis to merge",
+  "focus": "PrompTugal__IaC: #1 merged; #2 uses the App already on PrompTugal (agenticcells-site-factory)",
   "waiting_on": [
     {
-      "what": "merge of https://github.com/PrompTugal/PrompTugal__IaC/pull/1 (policy, org/repos.json, checks, Org apply)",
+      "what": "merge of https://github.com/PrompTugal/PrompTugal__IaC/pull/2; then agenticcells-site-factory installation on all PrompTugal repositories, apply environment (dev only) with PT_IAC_APP_ID and a new private key as PT_IAC_APP_PRIVATE_KEY",
       "who": "Dinis",
-      "since": "2026-11-25T22:56Z"
-    },
-    {
-      "what": "a GitHub App for PrompTugal__IaC's CI on the PrompTugal organisation: its App ID as variable and private key as secret in PrompTugal__IaC's apply environment",
-      "who": "Dinis",
-      "since": "2026-11-25T22:53Z"
+      "since": "2026-11-25T22:59Z"
     },
     {
       "what": "later: an AWS role CI assumes by GitHub OIDC from PrompTugal__IaC's apply environment, its privileges proposed in policy/abp.json for Dinis to merge",
@@ -35,7 +30,7 @@
       "since": "2026-11-25T22:56Z"
     }
   ],
-  "updated": "2026-11-25T22:56Z",
+  "updated": "2026-11-25T22:59Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -60,6 +55,10 @@
     {
       "at": "2026-11-25T22:56Z",
       "event": "seed opened as PrompTugal__IaC pull request #1"
+    },
+    {
+      "at": "2026-11-25T22:59Z",
+      "event": "#1 merged by Dinis (2d52d8b); #2 opened: use agenticcells-site-factory, tokens narrowed to the policy"
     }
   ]
 }
