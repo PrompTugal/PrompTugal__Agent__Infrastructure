@@ -12,25 +12,25 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "waiting",
-  "focus": "PrompTugal__IaC: #2 and #3 merged; #4 drafts 16 PrompTugal__Agent__{Name} homes for Dinis to correct",
+  "focus": "PrompTugal__IaC can now create repositories (App confirmed); #4 repository map and #5 key record for Dinis",
   "waiting_on": [
     {
-      "what": "PrompTugal__IaC apply environment (dev only) with PT_IAC_APP_ID 5777442 and a new App private key as PT_IAC_APP_PRIVATE_KEY",
+      "what": "merge of https://github.com/PrompTugal/PrompTugal__IaC/pull/5 (App key fingerprint, confirmed permissions)",
       "who": "Dinis",
-      "since": "2026-11-25T23:40Z"
+      "since": "2026-11-25T23:46Z"
+    },
+    {
+      "what": "promptugal.news zone ID and its AWS account, for the DNS role",
+      "who": "Dinis",
+      "since": "2026-11-25T23:46Z"
     },
     {
       "what": "Dinis corrects https://github.com/PrompTugal/PrompTugal__IaC/pull/4 (repository map)",
       "who": "Dinis",
       "since": "2026-11-25T23:40Z"
-    },
-    {
-      "what": "later: an AWS role CI assumes by GitHub OIDC from PrompTugal__IaC's apply environment, its privileges proposed in policy/abp.json for Dinis to merge",
-      "who": "Dinis",
-      "since": "2026-11-25T22:53Z"
     }
   ],
-  "updated": "2026-11-25T23:40Z",
+  "updated": "2026-11-25T23:46Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -63,6 +63,10 @@
     {
       "at": "2026-11-25T23:40Z",
       "event": "#3 merged (web merges accepted in Checks); #4 opened: draft repository map"
+    },
+    {
+      "at": "2026-11-25T23:46Z",
+      "event": "Check GitHub App run 45723680556 passed: token with metadata read, administration write, contents write sees all 22 repositories; #5 opened"
     }
   ]
 }

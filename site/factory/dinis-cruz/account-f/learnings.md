@@ -5,3 +5,5 @@
 - cl-6.maestro's plan note (notes/2026-11-25-promptugal-plan.md) was not yet published at 22:52 UTC (404).
 - The same Python `.gitignore` in PrompTugal__IaC ignored `build/`; the first seed commit went without the scripts and a second commit added them.
 - The signature check skips the commit that adds it and everything older, so the seed's two commits are reviewed by Dinis rather than checked by CI.
+- `set -e` does not stop on a failing command in the middle of an `&&` chain: a leak-scan failure let a commit through. Run checks as separate lines before committing.
+- `--force-with-lease` is refused on a branch with no remote-tracking ref in a shallow clone; pushing the correction to a new branch avoids rewriting anything.
