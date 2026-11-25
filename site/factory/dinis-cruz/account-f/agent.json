@@ -12,17 +12,12 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "waiting",
-  "focus": "PrompTugal__IaC can now create repositories (App confirmed); #4 repository map and #5 key record for Dinis",
+  "focus": "PrompTugal__IaC: Org apply live (0 actions); #6 DNS for promptugal.news for Dinis",
   "waiting_on": [
     {
-      "what": "merge of https://github.com/PrompTugal/PrompTugal__IaC/pull/5 (App key fingerprint, confirmed permissions)",
+      "what": "merge of https://github.com/PrompTugal/PrompTugal__IaC/pull/6 (DNS); the AWS account for promptugal.news; Dinis creates role promptugal-iac-dns and sets PT_AWS_ROLE_ARN, PT_ZONE_ID_NEWS",
       "who": "Dinis",
-      "since": "2026-11-25T23:46Z"
-    },
-    {
-      "what": "promptugal.news zone ID and its AWS account, for the DNS role",
-      "who": "Dinis",
-      "since": "2026-11-25T23:46Z"
+      "since": "2026-11-25T23:52Z"
     },
     {
       "what": "Dinis corrects https://github.com/PrompTugal/PrompTugal__IaC/pull/4 (repository map)",
@@ -30,7 +25,7 @@
       "since": "2026-11-25T23:40Z"
     }
   ],
-  "updated": "2026-11-25T23:46Z",
+  "updated": "2026-11-25T23:52Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -67,6 +62,14 @@
     {
       "at": "2026-11-25T23:46Z",
       "event": "Check GitHub App run 45723680556 passed: token with metadata read, administration write, contents write sees all 22 repositories; #5 opened"
+    },
+    {
+      "at": "2026-11-25T23:50Z",
+      "event": "Org apply by hand (run 45724368179) on the live organisation: 0 actions"
+    },
+    {
+      "at": "2026-11-25T23:52Z",
+      "event": "#6 opened: DNS for promptugal.news, CREATE only"
     }
   ]
 }
