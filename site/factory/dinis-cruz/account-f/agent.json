@@ -36,9 +36,13 @@
     {
       "who": "Dinis",
       "what": "cl-6.security A1b: riskmandate-agent is in team promptugal-news-agents (push on 91 repos) and no PrompTugal role names it; confirm or remove"
+    },
+    {
+      "who": "Dinis",
+      "what": "merge IaC #28 (certificate nudge cap; build/ and .github/)"
     }
   ],
-  "updated": "2026-11-26T16:07Z",
+  "updated": "2026-11-26T16:15Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -235,6 +239,10 @@
     {
       "at": "2026-11-26T16:06Z",
       "what": "IaC #27 merged: London's place agent is cl-6.place.london (Dinis via cl-6.conductor); metadata only"
+    },
+    {
+      "at": "2026-11-26T16:14Z",
+      "what": "cl-6.security: nudges cycled 7x on its home (push-triggered Org apply re-nudges all bad_authz sites). #28 for Dinis: nudge only on dispatch with input, max once a day per site. Holding Org apply dispatches and org/** merges until merged"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
