@@ -251,6 +251,10 @@
     {
       "at": "2026-11-26T16:30Z",
       "what": "Dinis: publish London strikes today (#29 ready, waits only for #28 to avoid a second nudge cycle). Draft #30: PrompTugal__Agent__Social for cl-6.social (waits for D-SOCIAL-START and #28)"
+    },
+    {
+      "at": "2026-11-26T16:30Z",
+      "what": "cl-6.decisions signed 2026-11-26__strikes-site (8ecec85): order #28, then #29 (Org apply claims), then DNS. Social: home only, no section repositories"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
