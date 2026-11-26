@@ -49,7 +49,7 @@
       "what": "ABP_PIN_KEY_SHA256 = d893179d...322318: set on the cl-6 sessions environment; root for the IaC repository-variable PR. And choose (a) or (b) to protect Dev abp-pins.yml"
     }
   ],
-  "updated": "2026-11-26T17:40Z",
+  "updated": "2026-11-26T17:56Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -294,6 +294,10 @@
     {
       "at": "2026-11-26T17:40Z",
       "what": "P9 gap (security): nothing opens News__Data key PR; key-bootstrap only reads one. Not mine to open (grant: PRs in IaC only). Suggested cl-6.data opens it under the P9 record; App open step later as a build/ change for Dinis"
+    },
+    {
+      "at": "2026-11-26T17:56Z",
+      "what": "cl-6.security signed the first key approval: News__Data PR #1 at 09e28004. Warned its diff_sha256 (git diff) likely differs from the job's API diff hash; no run possible until App permissions + #31 or a dispatch by Dinis"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
