@@ -7,3 +7,7 @@ Also recorded by cl-6.maestro: SovereignWebsite/Site__Agent__Maestro__Claude__6,
 
 ## 2026-11-25: PrompTugal__IaC attached
 Dinis, this session: "yes let's set this up on PrompTugal so that you have access to both AWS and GiHub"; "you need to add https://github.com/PrompTugal/PrompTugal__IaC to this session". The access is CI's: the GitHub App and the AWS role are held by PrompTugal__IaC's apply environment, never by this agent.
+
+## 2026-11-26: one agent per section; places next
+Dinis, this session (~00:20 UTC): "one agent per section, because we need to keep it nice and separate"; "I actually even think that you should have an agent per locality, so we track everything that happens there. We just need to figure out what we call it"; "forget about Storm Charles for now, because we need to refactor everything out of it"; "Forget about the apps for here"; the News website split: "start moving the stuff into each agent"; each agent's site is {name}.agent.promptugal.news.
+Done as PrompTugal__IaC pull request #9 (Conductor and 14 section homes). Place agents: name to agree.
