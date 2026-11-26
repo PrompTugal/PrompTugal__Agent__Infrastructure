@@ -23,3 +23,7 @@ Rule from here: cl-6.infra merges its own PrompTugal__IaC pull requests that cre
 ## 2026-11-26: decisions agent; sites
 Dinis, this session (~00:35 UTC): "use SWS's decisions agent, and go ahead with the sites"; "you should already have permission" (Pages on the App). The decisions agent is decisions.b@SovereignWebsite.dinis (SovereignWebsite__IaC policy/abp.json: session https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ, records in SovereignWebsite__IaC decisions/). Sites: PrompTugal__IaC #12 (Pages and custom domains for the 51 homes), then their DNS.
 Domain check, 00:34 UTC: promptugal.news and its sections resolve to GitHub Pages and are live; no _github-pages-challenge TXT record was found for PrompTugal, so the domain is not verified for the organisation on GitHub.
+
+## 2026-11-26: the newsroom roles, the folds and the team
+Dinis, this session (~01:15 UTC): "You need to add this team to all the repos you created, or else nobody else can edit it" (team promptugal-news-agents). Done: PrompTugal__IaC #15, Org apply run 45735393026 (push on all 51 homes; every later home gets it at creation).
+Dinis (~01:25 UTC): "yes merge #14, and fold those into existing homes". Done: #14 (26 role homes, run 45735641821, 156 actions), #16 (their DNS, run 45736358130). Folds: Algarve central/east/west into Place__Algarve; districts into Place__Portugal; places workers data and datasci into Data, dev into Dev, designer and viz into Designer, detective into Researcher (cl-6.conductor's mapping).

@@ -11,16 +11,10 @@
   "key": "site/keys/cl-6.infra.json",
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
-  "state": "waiting",
-  "focus": "#14: 26 newsroom role homes from cl-6.conductor's list, held for Dinis's yes",
-  "waiting_on": [
-    {
-      "what": "Dinis's yes on https://github.com/PrompTugal/PrompTugal__IaC/pull/14 (21 roles, 5 twins); and on folding Algarve central/east/west, districts and the six places workers",
-      "who": "Dinis",
-      "since": "2026-11-26T01:10Z"
-    }
-  ],
-  "updated": "2026-11-26T01:10Z",
+  "state": "working",
+  "focus": "77 agent homes live (Conductor, 14 sections, 36 places, 26 roles), each with Pages, its domain, DNS and team push; next: HTTPS",
+  "waiting_on": [],
+  "updated": "2026-11-26T01:32Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -121,6 +115,18 @@
     {
       "at": "2026-11-26T01:10Z",
       "event": "cl-6.conductor sent its list of 26 role homes; #14 opened and held for Dinis"
+    },
+    {
+      "at": "2026-11-26T01:24Z",
+      "event": "#15 merged; team promptugal-news-agents push on the 51 homes (run 45735393026)"
+    },
+    {
+      "at": "2026-11-26T01:30Z",
+      "event": "#14 merged; 26 role homes created with Pages, domain and team (run 45735641821)"
+    },
+    {
+      "at": "2026-11-26T01:32Z",
+      "event": "#16 merged; 26 role CNAMEs created (run 45736358130); sample answers HTTP 200"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"
