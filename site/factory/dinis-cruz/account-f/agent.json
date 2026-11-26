@@ -41,11 +41,11 @@
       "what": "merge IaC #31 (schedules) after adding the App's five permissions"
     },
     {
-      "who": "cl-6.decisions / Dinis",
-      "what": "who dispatches DNS apply after Org apply for new sites (or a workflow_run trigger)"
+      "who": "Dinis",
+      "what": "merge IaC #32 after cl-6.security's pass (ideally after #28, before #29/#30); until then dispatch DNS apply after each new site's Org apply"
     }
   ],
-  "updated": "2026-11-26T16:36Z",
+  "updated": "2026-11-26T16:37Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -266,6 +266,10 @@
     {
       "at": "2026-11-26T16:36Z",
       "what": "Grant 2026-11-26__abp-a4-infra received: no dispatches; merges only with record + security pass. #29 (2deb8f9, strikes-site) and #30 (dc48554, social-start) after #28. Gaps raised: DNS apply re-dispatch after Org apply; Key bootstrap dispatch for News__Data"
+    },
+    {
+      "at": "2026-11-26T16:37Z",
+      "what": "IaC #32 drafted (DNS apply follows a successful Org apply on dev), sent to cl-6.security; Dinis merges. Decisions: DNS apply and News__Data bootstrap dispatches are Dinis's"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
