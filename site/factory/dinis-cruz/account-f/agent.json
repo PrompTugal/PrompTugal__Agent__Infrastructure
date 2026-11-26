@@ -39,9 +39,13 @@
     {
       "who": "Dinis",
       "what": "merge IaC #31 (schedules) after adding the App's five permissions"
+    },
+    {
+      "who": "cl-6.decisions / Dinis",
+      "what": "who dispatches DNS apply after Org apply for new sites (or a workflow_run trigger)"
     }
   ],
-  "updated": "2026-11-26T16:32Z",
+  "updated": "2026-11-26T16:36Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -258,8 +262,24 @@
     {
       "at": "2026-11-26T16:32Z",
       "what": "Dinis merged #25. Its push-started Org apply run 45859369163 cancelled during the read-only plan (would have re-nudged 25 sites). #31 prepared: schedules on, for Dinis after the App permissions. #28 stays Dinis's (build/, .github/), not merged on a decisions record"
+    },
+    {
+      "at": "2026-11-26T16:36Z",
+      "what": "Grant 2026-11-26__abp-a4-infra received: no dispatches; merges only with record + security pass. #29 (2deb8f9, strikes-site) and #30 (dc48554, social-start) after #28. Gaps raised: DNS apply re-dispatch after Org apply; Key bootstrap dispatch for News__Data"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
-  "blocked_by": "nothing of mine; the waits above"
+  "blocked_by": "nothing of mine; the waits above",
+  "grant": {
+    "record": "2026-11-26__abp-a4-infra",
+    "commit": "5b4b226",
+    "by": "cl-6.decisions with cl-6.security",
+    "rules": [
+      "push only work/* in PrompTugal__IaC on build/*, org/*, .github/workflows/*, test/*, docs/*, policy/abp.json",
+      "pull requests in IaC only",
+      "never dispatch or approve an apply",
+      "merge own PR only under a signed record and another agent's security pass on the exact head",
+      "AWS, App permissions, policy/: Dinis"
+    ]
+  }
 }
