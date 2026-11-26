@@ -11,16 +11,16 @@
   "key": "site/keys/cl-6.infra.json",
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
-  "state": "waiting",
-  "focus": "PrompTugal__IaC: #9 (15 section homes), #10 (36 place homes, stacked on #9), #11 (live AWS trust) for Dinis",
+  "state": "working",
+  "focus": "PrompTugal: 51 agent homes created (15 sections and conductor, 36 places); next their sites and DNS",
   "waiting_on": [
     {
-      "what": "merge of PrompTugal__IaC #9, then #10, and #11",
+      "what": "which decisions agent to ask when in doubt, and how to reach it",
       "who": "Dinis",
-      "since": "2026-11-26T00:22Z"
+      "since": "2026-11-26T00:29Z"
     }
   ],
-  "updated": "2026-11-26T00:22Z",
+  "updated": "2026-11-26T00:29Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -89,6 +89,18 @@
     {
       "at": "2026-11-26T00:22Z",
       "event": "#10 (36 place homes) and #11 (live AWS role record) opened"
+    },
+    {
+      "at": "2026-11-26T00:23Z",
+      "event": "merged PrompTugal__IaC #9, #10, #11 at Dinis's word"
+    },
+    {
+      "at": "2026-11-26T00:24Z",
+      "event": "Org apply run 45728326952 created the Conductor and 14 section homes (45 actions)"
+    },
+    {
+      "at": "2026-11-26T00:28Z",
+      "event": "Org apply run 45728356227 created the 36 place homes; all 36 have dev as default branch"
     }
   ]
 }
