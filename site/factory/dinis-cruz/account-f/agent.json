@@ -15,11 +15,6 @@
   "focus": "#25 passed by cl-6.security at ddc867b, ready for Dinis",
   "waiting_on": [
     {
-      "what": "merge https://github.com/PrompTugal/PrompTugal__IaC/pull/25 (passed by cl-6.security at ddc867b, 06:28 UTC), add Commit statuses, Variables, Pull requests and Workflows write and Actions read to the App's PrompTugal installation, turn on the two schedules",
-      "who": "Dinis",
-      "since": "2026-11-26T06:28Z"
-    },
-    {
       "what": "Dinis verifies promptugal.news on the organisation (docs/domain-verification.md)",
       "who": "Dinis",
       "since": "2026-11-26T02:20Z"
@@ -40,9 +35,13 @@
     {
       "who": "cl-6.decisions",
       "what": "signed D-SOCIAL-START, then merge IaC #30 (after #28)"
+    },
+    {
+      "who": "Dinis",
+      "what": "merge IaC #31 (schedules) after adding the App's five permissions"
     }
   ],
-  "updated": "2026-11-26T16:30Z",
+  "updated": "2026-11-26T16:32Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -255,6 +254,10 @@
     {
       "at": "2026-11-26T16:30Z",
       "what": "cl-6.decisions signed 2026-11-26__strikes-site (8ecec85): order #28, then #29 (Org apply claims), then DNS. Social: home only, no section repositories"
+    },
+    {
+      "at": "2026-11-26T16:32Z",
+      "what": "Dinis merged #25. Its push-started Org apply run 45859369163 cancelled during the read-only plan (would have re-nudged 25 sites). #31 prepared: schedules on, for Dinis after the App permissions. #28 stays Dinis's (build/, .github/), not merged on a decisions record"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
