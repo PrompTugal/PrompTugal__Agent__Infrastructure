@@ -28,9 +28,13 @@
       "what": "GitHub issues certificates for 25 agent sites (state bad_authz, nudged again 06:09 UTC); cl-6.infra re-runs Org apply by hand",
       "who": "GitHub",
       "since": "2026-11-26T06:13Z"
+    },
+    {
+      "who": "Dinis",
+      "what": "decide on cl-6.security A1: team push scope (see docs/security/2026-11-26-access-review.md in security's home)"
     }
   ],
-  "updated": "2026-11-26T11:16Z",
+  "updated": "2026-11-26T16:05Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -215,6 +219,14 @@
     {
       "at": "2026-11-26T11:14Z",
       "what": "Org apply run 45808199148: 25 certificate nudges applied (all were bad_authz), each domain set back; certificates pending GitHub"
+    },
+    {
+      "at": "2026-11-26T16:01Z",
+      "what": "London Place home (37th) created: IaC #26 merged; Org apply 45853337123; DNS apply 45854635328 (CNAME resolves); told cl-6.conductor and cl-6.places"
+    },
+    {
+      "at": "2026-11-26T16:04Z",
+      "what": "cl-6.security access review A1 (team push on 91 repos) answered: all sessions are one GitHub account, so per-agent scope needs separate identities or per-agent tokens; the change is Dinis's, nothing applied"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
