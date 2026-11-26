@@ -43,9 +43,13 @@
     {
       "who": "Dinis",
       "what": "merge IaC #32 after cl-6.security's pass (ideally after #28, before #29/#30); until then dispatch DNS apply after each new site's Org apply"
+    },
+    {
+      "who": "Dinis",
+      "what": "ABP_PIN_KEY_SHA256: set it on the cl-6 sessions environment, and decide on an IaC variables action (org Variables permission or per-repo)"
     }
   ],
-  "updated": "2026-11-26T16:37Z",
+  "updated": "2026-11-26T16:39Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -270,6 +274,10 @@
     {
       "at": "2026-11-26T16:37Z",
       "what": "IaC #32 drafted (DNS apply follows a successful Org apply on dev), sent to cl-6.security; Dinis merges. Decisions: DNS apply and News__Data bootstrap dispatches are Dinis's"
+    },
+    {
+      "at": "2026-11-26T16:39Z",
+      "what": "cl-6.abp asks for ABP_PIN_KEY_SHA256 (session env var + CI variable). Recomputed eb5b09f0...299326 from site/keys/cl-6.abp.json (cc441a5), matches pinlib and the ssh line. Both places are Dinis's; offered to draft an IaC variables action after his root"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
