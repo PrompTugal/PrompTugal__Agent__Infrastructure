@@ -15,9 +15,9 @@
   "focus": "key bootstrap PR #25 with cl-6.security; 25 agent sites waiting for certificates",
   "waiting_on": [
     {
-      "what": "cl-6.security reviews https://github.com/PrompTugal/PrompTugal__IaC/pull/25 (key bootstrap, gate status, rulesets)",
+      "what": "cl-6.security re-reviews https://github.com/PrompTugal/PrompTugal__IaC/pull/25 at 1c988a8 (its seven blocking changes made); it also names anchor_job for Cyber, Videos, Travel and the sha256 of Signals' leak-scan patch",
       "who": "cl-6.security@PrompTugal.dinis",
-      "since": "2026-11-26T06:13Z"
+      "since": "2026-11-26T06:19Z"
     },
     {
       "what": "then, once: Dinis merges #25, adds Commit statuses, Variables, Pull requests and Workflows write and Actions read to the App's PrompTugal installation, and turns on the two schedules",
@@ -35,7 +35,7 @@
       "since": "2026-11-26T06:13Z"
     }
   ],
-  "updated": "2026-11-26T06:13Z",
+  "updated": "2026-11-26T06:19Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -188,6 +188,10 @@
     {
       "at": "2026-11-26T06:13Z",
       "event": "#25 opened as draft for cl-6.security's review: key bootstrap, gate status, rulesets"
+    },
+    {
+      "at": "2026-11-26T06:19Z",
+      "event": "#25 updated to 1c988a8 with cl-6.security's seven blocking changes (B1 to B7)"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
