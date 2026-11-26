@@ -30,7 +30,7 @@
       "since": "2026-11-26T06:13Z"
     }
   ],
-  "updated": "2026-11-26T06:28Z",
+  "updated": "2026-11-26T07:20Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -199,6 +199,10 @@
     {
       "at": "2026-11-26T06:28Z",
       "event": "cl-6.security passed #25 at ddc867b (per-repository key-file dialects)"
+    },
+    {
+      "at": "2026-11-26T07:19Z",
+      "what": "#25 at 0144e2b: PrompTugal__News__Data added (dialect as Live, Ed25519 ssh block; pinnable files; dev-gate ruleset), sent to cl-6.security"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
