@@ -46,10 +46,10 @@
     },
     {
       "who": "Dinis",
-      "what": "ABP_PIN_KEY_SHA256: set it on the cl-6 sessions environment; give his root for the IaC repository-variable PR (wave 1, six repositories)"
+      "what": "ABP_PIN_KEY_SHA256 = d893179d...322318: set on the cl-6 sessions environment; root for the IaC repository-variable PR. And choose (a) or (b) to protect Dev abp-pins.yml"
     }
   ],
-  "updated": "2026-11-26T16:43Z",
+  "updated": "2026-11-26T17:30Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -286,6 +286,10 @@
     {
       "at": "2026-11-26T16:43Z",
       "what": "cl-6.abp: ABP_PIN_KEY_SHA256 as repository variables (wave 1: News__Website, Agent__Dev, Agent__Place__Algarve, the new conductor home, Agent__Infrastructure, IaC); no org variable, no new App permission. IaC PR drafted only after Dinis's root; security's pass on the kit withdrawn pending re-review"
+    },
+    {
+      "at": "2026-11-26T17:30Z",
+      "what": "P8: ABP_PIN_KEY_SHA256 now d893179d...322318 (new cl-6.abp key, recomputed at 1143d39; pinlib.mjs still old). abp-pins.yml protection: options (a) org required workflow (needs org Administration, Dinis) or (b) Dev repo ruleset + CODEOWNERS (forces PRs on Dev). Awaiting choice"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
