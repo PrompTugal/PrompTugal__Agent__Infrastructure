@@ -12,15 +12,9 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "working",
-  "focus": "PrompTugal: 51 agent homes created (15 sections and conductor, 36 places); next their sites and DNS",
-  "waiting_on": [
-    {
-      "what": "which decisions agent to ask when in doubt, and how to reach it",
-      "who": "Dinis",
-      "since": "2026-11-26T00:29Z"
-    }
-  ],
-  "updated": "2026-11-26T00:29Z",
+  "focus": "sites for the 51 agent homes: #12 Pages and custom domains, then DNS",
+  "waiting_on": [],
+  "updated": "2026-11-26T00:46Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -101,6 +95,11 @@
     {
       "at": "2026-11-26T00:28Z",
       "event": "Org apply run 45728356227 created the 36 place homes; all 36 have dev as default branch"
+    },
+    {
+      "at": "2026-11-26T00:46Z",
+      "event": "#12 opened: Pages and custom domains for the 51 homes"
     }
-  ]
+  ],
+  "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"
 }
