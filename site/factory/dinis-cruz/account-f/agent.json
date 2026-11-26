@@ -32,9 +32,13 @@
     {
       "who": "Dinis",
       "what": "decide on cl-6.security A1: team push scope (see docs/security/2026-11-26-access-review.md in security's home)"
+    },
+    {
+      "who": "Dinis",
+      "what": "cl-6.security A1b: riskmandate-agent is in team promptugal-news-agents (push on 91 repos) and no PrompTugal role names it; confirm or remove"
     }
   ],
-  "updated": "2026-11-26T16:05Z",
+  "updated": "2026-11-26T16:07Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -227,6 +231,10 @@
     {
       "at": "2026-11-26T16:04Z",
       "what": "cl-6.security access review A1 (team push on 91 repos) answered: all sessions are one GitHub account, so per-agent scope needs separate identities or per-agent tokens; the change is Dinis's, nothing applied"
+    },
+    {
+      "at": "2026-11-26T16:06Z",
+      "what": "IaC #27 merged: London's place agent is cl-6.place.london (Dinis via cl-6.conductor); metadata only"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
