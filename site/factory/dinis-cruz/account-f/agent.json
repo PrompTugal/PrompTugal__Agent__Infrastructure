@@ -12,9 +12,15 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "working",
-  "focus": "77 agent homes live (Conductor, 14 sections, 36 places, 26 roles), each with Pages, its domain, DNS and team push; next: HTTPS",
-  "waiting_on": [],
-  "updated": "2026-11-26T01:32Z",
+  "focus": "DNS claims check done (one unclaimed: www.promptugal.news); domain verification proposed",
+  "waiting_on": [
+    {
+      "what": "Dinis verifies promptugal.news on the PrompTugal organisation (PrompTugal__IaC docs/domain-verification.md) and sends the TXT name and value",
+      "who": "Dinis",
+      "since": "2026-11-26T02:19Z"
+    }
+  ],
+  "updated": "2026-11-26T02:19Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -127,6 +133,10 @@
     {
       "at": "2026-11-26T01:32Z",
       "event": "#16 merged; 26 role CNAMEs created (run 45736358130); sample answers HTTP 200"
+    },
+    {
+      "at": "2026-11-26T02:18Z",
+      "event": "#17 (fringe out of org/dns.json) and #18 (claims report and guard) merged; DNS apply run 45741449735: 94 Pages records, 94 claimed, unclaimed www.promptugal.news; notes/2026-11-26-dns-claims.md"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"
