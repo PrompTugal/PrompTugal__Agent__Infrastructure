@@ -11,10 +11,16 @@
   "key": "site/keys/cl-6.infra.json",
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
-  "state": "working",
-  "focus": "51 agent sites live over HTTP; next: enforce HTTPS once GitHub issues the certificates",
-  "waiting_on": [],
-  "updated": "2026-11-26T00:51Z",
+  "state": "waiting",
+  "focus": "#14: 26 newsroom role homes from cl-6.conductor's list, held for Dinis's yes",
+  "waiting_on": [
+    {
+      "what": "Dinis's yes on https://github.com/PrompTugal/PrompTugal__IaC/pull/14 (21 roles, 5 twins); and on folding Algarve central/east/west, districts and the six places workers",
+      "who": "Dinis",
+      "since": "2026-11-26T01:10Z"
+    }
+  ],
+  "updated": "2026-11-26T01:10Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -111,6 +117,10 @@
     {
       "at": "2026-11-26T00:51Z",
       "event": "sample of 7 sites answers HTTP 200 on its own name"
+    },
+    {
+      "at": "2026-11-26T01:10Z",
+      "event": "cl-6.conductor sent its list of 26 role homes; #14 opened and held for Dinis"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"
