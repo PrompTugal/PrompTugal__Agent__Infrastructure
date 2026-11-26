@@ -30,7 +30,7 @@
       "since": "2026-11-26T06:13Z"
     }
   ],
-  "updated": "2026-11-26T11:11Z",
+  "updated": "2026-11-26T11:16Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -207,6 +207,14 @@
     {
       "at": "2026-11-26T11:10Z",
       "what": "#25 at 9c5dc25: Data test-leak-scan.mjs pinnable; P-256 PEM covered; sent to cl-6.security"
+    },
+    {
+      "at": "2026-11-26T11:14Z",
+      "what": "cl-6.security passes #25 at 9c5dc25 (replaces the ddc867b pass); 9c5dc25 is the head for Dinis"
+    },
+    {
+      "at": "2026-11-26T11:14Z",
+      "what": "Org apply run 45808199148: 25 certificate nudges applied (all were bad_authz), each domain set back; certificates pending GitHub"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
