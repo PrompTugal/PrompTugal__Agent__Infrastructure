@@ -12,15 +12,20 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "working",
-  "focus": "DNS claims check done (one unclaimed: www.promptugal.news); domain verification proposed",
+  "focus": "key bootstrap and S6 with cl-6.security: design agreed, PR to draft; HTTPS: certificates requested (#22)",
   "waiting_on": [
     {
-      "what": "Dinis verifies promptugal.news on the PrompTugal organisation (PrompTugal__IaC docs/domain-verification.md) and sends the TXT name and value",
+      "what": "Dinis verifies promptugal.news on the organisation (docs/domain-verification.md)",
       "who": "Dinis",
-      "since": "2026-11-26T02:19Z"
+      "since": "2026-11-26T02:20Z"
+    },
+    {
+      "what": "for the key bootstrap: Dinis adds Commit statuses, Variables, Pull requests and Workflows write to the App's PrompTugal installation, decides on a schedule for the status poller, merges the policy PR",
+      "who": "Dinis",
+      "since": "2026-11-26T02:37Z"
     }
   ],
-  "updated": "2026-11-26T02:28Z",
+  "updated": "2026-11-26T02:37Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -141,6 +146,18 @@
     {
       "at": "2026-11-26T02:28Z",
       "event": "#19 merged by Dinis; Org apply run 45742430375 gave promptugal-news-agents push on 8 News repositories (the other 5 already had it)"
+    },
+    {
+      "at": "2026-11-26T02:28Z",
+      "event": "#20 (HTTPS once certificates are issued) and #21 (www as the apex's pair) merged"
+    },
+    {
+      "at": "2026-11-26T02:33Z",
+      "event": "#22 merged: certificate nudge for the 77 agent sites"
+    },
+    {
+      "at": "2026-11-26T02:36Z",
+      "event": "rules probe run 45743552530: GitHub refuses push rules on public repositories (HTTP 422); S6 goes the required-status-check way"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"
