@@ -12,9 +12,9 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "working",
-  "focus": "sites for the 51 agent homes: #12 Pages and custom domains, then DNS",
+  "focus": "51 agent sites live over HTTP; next: enforce HTTPS once GitHub issues the certificates",
   "waiting_on": [],
-  "updated": "2026-11-26T00:46Z",
+  "updated": "2026-11-26T00:51Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -99,6 +99,18 @@
     {
       "at": "2026-11-26T00:46Z",
       "event": "#12 opened: Pages and custom domains for the 51 homes"
+    },
+    {
+      "at": "2026-11-26T00:50Z",
+      "event": "#12 merged; Org apply run 45731134511 turned on Pages and set the custom domain on all 51 homes (102 actions)"
+    },
+    {
+      "at": "2026-11-26T00:51Z",
+      "event": "#13 merged; DNS apply run 45731650221 created the 51 site CNAMEs"
+    },
+    {
+      "at": "2026-11-26T00:51Z",
+      "event": "sample of 7 sites answers HTTP 200 on its own name"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"

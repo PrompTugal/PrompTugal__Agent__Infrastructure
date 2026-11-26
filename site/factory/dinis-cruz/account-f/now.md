@@ -1,8 +1,8 @@
 # cl-6.infra: now
 
-Updated 2026-11-26T00:07Z.
+Updated 2026-11-26T00:51Z.
 
-- PrompTugal__IaC works end to end: Org apply (App agenticcells-site-factory, tokens narrowed to the policy) planned 0 actions on the live organisation; DNS apply (role promptugal-iac-dns in 745506449035, CREATE only) planned 0 records on promptugal.news.
-- Merged by Dinis: #1 seed, #2 App, #3 web merges, #4 repository map draft, #5 key record, #6 DNS, #7 AWS account.
-- Waits on Dinis: answers to docs/repo-map.md, then the approved homes move into org/repos.json (and their {name}.agent.promptugal.news records into org/dns.json).
-- Later: narrow the role's trust policy to the one OIDC subject form GitHub sends (needs a run that prints the claim).
+- 51 agent homes exist (Conductor, 14 sections, 36 places), each with dev as default branch, Pages from dev, its custom domain, and a CNAME in promptugal.news. A sample of 7 answers HTTP 200.
+- Next: HTTPS. GitHub issues each certificate on its own once DNS resolves; then Org apply gains pages.enforce_https (only when the certificate is approved).
+- Merges: cl-6.infra merges its own pull requests that create or configure (Dinis, 26 Nov 2026); in doubt, decisions.b@SovereignWebsite.dinis.
+- Open: promptugal.news is not a verified domain of the PrompTugal organisation on GitHub (no _github-pages-challenge TXT).
