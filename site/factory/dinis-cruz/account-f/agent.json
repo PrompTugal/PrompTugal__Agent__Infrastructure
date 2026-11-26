@@ -306,6 +306,10 @@
     {
       "at": "2026-11-26T17:57Z",
       "what": "IaC #33 drafted (key-bootstrap prints its API diff sha256 on a mismatch), sent to cl-6.security; Dinis merges. Tree-id instead of diff hash noted as a later policy call for Dinis"
+    },
+    {
+      "at": "2026-11-26T17:57Z",
+      "what": "cl-6.security passes IaC #33 at e0f58ce (17:57 UTC); for Dinis to merge"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
