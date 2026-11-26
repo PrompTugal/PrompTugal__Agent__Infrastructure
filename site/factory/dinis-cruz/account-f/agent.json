@@ -11,21 +11,31 @@
   "key": "site/keys/cl-6.infra.json",
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
-  "state": "working",
-  "focus": "HTTPS: 52 of 77 agent sites on HTTPS, 25 waiting for certificates; next: key-bootstrap PR with cl-6.security",
+  "state": "waiting",
+  "focus": "key bootstrap PR #25 with cl-6.security; 25 agent sites waiting for certificates",
   "waiting_on": [
+    {
+      "what": "cl-6.security reviews https://github.com/PrompTugal/PrompTugal__IaC/pull/25 (key bootstrap, gate status, rulesets)",
+      "who": "cl-6.security@PrompTugal.dinis",
+      "since": "2026-11-26T06:13Z"
+    },
+    {
+      "what": "then, once: Dinis merges #25, adds Commit statuses, Variables, Pull requests and Workflows write and Actions read to the App's PrompTugal installation, and turns on the two schedules",
+      "who": "Dinis",
+      "since": "2026-11-26T06:13Z"
+    },
     {
       "what": "Dinis verifies promptugal.news on the organisation (docs/domain-verification.md)",
       "who": "Dinis",
       "since": "2026-11-26T02:20Z"
     },
     {
-      "what": "for the key bootstrap: Dinis adds Commit statuses, Variables, Pull requests and Workflows write to the App's PrompTugal installation, decides on a schedule for the status poller, merges the policy PR",
-      "who": "Dinis",
-      "since": "2026-11-26T02:37Z"
+      "what": "GitHub issues certificates for 25 agent sites (state bad_authz, nudged again 06:09 UTC); cl-6.infra re-runs Org apply by hand",
+      "who": "GitHub",
+      "since": "2026-11-26T06:13Z"
     }
   ],
-  "updated": "2026-11-26T06:07Z",
+  "updated": "2026-11-26T06:13Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -170,7 +180,16 @@
     {
       "at": "2026-11-26T06:07Z",
       "event": "77 agent sites: 52 redirect to HTTPS, 25 still HTTP until their certificates are issued"
+    },
+    {
+      "at": "2026-11-26T06:11Z",
+      "event": "Org apply run 45766074087: 25 agent sites with certificate bad_authz nudged again; 52 of 77 on HTTPS"
+    },
+    {
+      "at": "2026-11-26T06:13Z",
+      "event": "#25 opened as draft for cl-6.security's review: key bootstrap, gate status, rulesets"
     }
   ],
-  "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"
+  "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
+  "blocked_by": "nothing of mine; the waits above"
 }
