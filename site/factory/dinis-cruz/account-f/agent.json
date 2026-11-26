@@ -31,18 +31,14 @@
     },
     {
       "who": "Dinis",
-      "what": "decide on cl-6.security A1: team push scope (see docs/security/2026-11-26-access-review.md in security's home)"
-    },
-    {
-      "who": "Dinis",
-      "what": "cl-6.security A1b: riskmandate-agent is in team promptugal-news-agents (push on 91 repos) and no PrompTugal role names it; confirm or remove"
-    },
-    {
-      "who": "Dinis",
       "what": "merge IaC #28 (certificate nudge cap; build/ and .github/)"
+    },
+    {
+      "who": "cl-6.decisions",
+      "what": "signed D-STRIKES-SITE, then merge IaC #29 (after #28)"
     }
   ],
-  "updated": "2026-11-26T16:15Z",
+  "updated": "2026-11-26T16:12Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -243,6 +239,10 @@
     {
       "at": "2026-11-26T16:14Z",
       "what": "cl-6.security: nudges cycled 7x on its home (push-triggered Org apply re-nudges all bad_authz sites). #28 for Dinis: nudge only on dispatch with input, max once a day per site. Holding Org apply dispatches and org/** merges until merged"
+    },
+    {
+      "at": "2026-11-26T16:12Z",
+      "what": "Dinis via cl-6.conductor: A1b riskmandate-agent stays; A1 closed as a limit. London strikes site prepared as IaC draft #29 (waits for D-STRIKES-SITE and #28)"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",

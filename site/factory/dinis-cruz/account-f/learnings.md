@@ -13,3 +13,4 @@
 - A workflow with both push and dispatch triggers runs on every merge too: Org apply re-nudged all 25 stuck certificates on each merge to org/, so seven cycles hit one site in a day, each a takeover window and a push race. A repeating repair must be opt-in and rate-limited (PrompTugal__IaC #28), and a repair that does not work (bad_authz stays) should stop, not repeat.
 - Write a time only from date -u: I stamped a message 16:14 UTC when the clock read 16:09.
 - Certificates seen from this sandbox are re-signed by its egress proxy (issuer "Anthropic Egress Gateway"); a site's real certificate state comes only from GitHub's Pages API.
+- `cmd | tail -1 && next` lets a failing cmd through (the pipe's status is tail's): a commit with two failing tests reached a branch (IaC #29's first commit). Use set -o pipefail before such chains.
