@@ -15,3 +15,7 @@ Done as PrompTugal__IaC pull request #9 (Conductor and 14 section homes). Place 
 ## 2026-11-26: place agents
 Dinis, this session (~00:25 UTC): "PrompTugal__Agent__Place__"; "can you [make] one for all places [that] we current support (I don't think we can use Loulé, it needs to be PrompTugal__Agent__Place__Loule right?)".
 Done as PrompTugal__IaC pull request #10: 36 homes, from PrompTugal__News__Website data/by-place/places.json, names in plain ASCII.
+
+## 2026-11-26: cl-6.infra merges pull requests that create
+Dinis, this session (~00:23 UTC): "can you merge those PRs? It's fine. I trust you. And that's part of this. You're the only one who can make these changes anyway" (PrompTugal__IaC #9, #10, #11, merged by cl-6.infra). Then: "This also covers future PRs to create stuff, which basically, actually, when if in doubt, can you call the decisions agent, and that should be able to answer for you, because the agent has a workflow to figure out agents, and that signs it for you as that agent."
+Rule from here: cl-6.infra merges its own PrompTugal__IaC pull requests that create or configure (repositories, dev branches, settings, CREATE-only DNS records, docs) once Checks pass. In doubt, it asks the decisions agent and acts on the record that agent signs. Still Dinis's unless such a signed record covers it: widening the GitHub App's or an AWS role's privileges, money, deleting anything, main.
