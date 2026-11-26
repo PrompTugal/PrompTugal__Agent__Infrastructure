@@ -47,9 +47,13 @@
     {
       "who": "Dinis",
       "what": "ABP_PIN_KEY_SHA256 = d893179d...322318: set on the cl-6 sessions environment; root for the IaC repository-variable PR. And choose (a) or (b) to protect Dev abp-pins.yml"
+    },
+    {
+      "who": "Dinis",
+      "what": "merge IaC #33 after cl-6.security's pass"
     }
   ],
-  "updated": "2026-11-26T17:56Z",
+  "updated": "2026-11-26T17:57Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -298,6 +302,10 @@
     {
       "at": "2026-11-26T17:56Z",
       "what": "cl-6.security signed the first key approval: News__Data PR #1 at 09e28004. Warned its diff_sha256 (git diff) likely differs from the job's API diff hash; no run possible until App permissions + #31 or a dispatch by Dinis"
+    },
+    {
+      "at": "2026-11-26T17:57Z",
+      "what": "IaC #33 drafted (key-bootstrap prints its API diff sha256 on a mismatch), sent to cl-6.security; Dinis merges. Tree-id instead of diff hash noted as a later policy call for Dinis"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
