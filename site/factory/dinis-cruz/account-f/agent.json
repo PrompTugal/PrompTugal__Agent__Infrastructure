@@ -12,17 +12,12 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "waiting",
-  "focus": "key bootstrap PR #25 with cl-6.security; 25 agent sites waiting for certificates",
+  "focus": "#25 passed by cl-6.security, ready for Dinis; 25 agent sites waiting for certificates",
   "waiting_on": [
     {
-      "what": "cl-6.security passes https://github.com/PrompTugal/PrompTugal__IaC/pull/25 at f3a2b47 (its last three points made: anchor job lists, paginated files, pins signed in its home)",
-      "who": "cl-6.security@PrompTugal.dinis",
-      "since": "2026-11-26T06:21Z"
-    },
-    {
-      "what": "then, once: Dinis merges #25, adds Commit statuses, Variables, Pull requests and Workflows write and Actions read to the App's PrompTugal installation, and turns on the two schedules",
+      "what": "merge https://github.com/PrompTugal/PrompTugal__IaC/pull/25 (passed by cl-6.security 06:21 UTC), add Commit statuses, Variables, Pull requests and Workflows write and Actions read to the App's PrompTugal installation, turn on the two schedules",
       "who": "Dinis",
-      "since": "2026-11-26T06:13Z"
+      "since": "2026-11-26T06:22Z"
     },
     {
       "what": "Dinis verifies promptugal.news on the organisation (docs/domain-verification.md)",
@@ -35,7 +30,7 @@
       "since": "2026-11-26T06:13Z"
     }
   ],
-  "updated": "2026-11-26T06:21Z",
+  "updated": "2026-11-26T06:22Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -196,6 +191,10 @@
     {
       "at": "2026-11-26T06:21Z",
       "event": "#25 at f3a2b47: anchor job lists, paginated PR files, pins from cl-6.security's signed approvals/pins; one Dinis merge"
+    },
+    {
+      "at": "2026-11-26T06:21Z",
+      "event": "cl-6.security passed #25 at f3a2b47; nit fixed 9f37c65; marked ready for Dinis"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
