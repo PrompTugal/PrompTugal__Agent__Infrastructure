@@ -11,3 +11,7 @@ Dinis, this session: "yes let's set this up on PrompTugal so that you have acces
 ## 2026-11-26: one agent per section; places next
 Dinis, this session (~00:20 UTC): "one agent per section, because we need to keep it nice and separate"; "I actually even think that you should have an agent per locality, so we track everything that happens there. We just need to figure out what we call it"; "forget about Storm Charles for now, because we need to refactor everything out of it"; "Forget about the apps for here"; the News website split: "start moving the stuff into each agent"; each agent's site is {name}.agent.promptugal.news.
 Done as PrompTugal__IaC pull request #9 (Conductor and 14 section homes). Place agents: name to agree.
+
+## 2026-11-26: place agents
+Dinis, this session (~00:25 UTC): "PrompTugal__Agent__Place__"; "can you [make] one for all places [that] we current support (I don't think we can use Loulé, it needs to be PrompTugal__Agent__Place__Loule right?)".
+Done as PrompTugal__IaC pull request #10: 36 homes, from PrompTugal__News__Website data/by-place/places.json, names in plain ASCII.
