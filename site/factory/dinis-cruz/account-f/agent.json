@@ -12,7 +12,7 @@
   "signing_fingerprint": "sha256:ad319cd4181af649",
   "encryption_fingerprint": "sha256:dfd63c722a742769",
   "state": "working",
-  "focus": "key bootstrap and S6 with cl-6.security: design agreed, PR to draft; HTTPS: certificates requested (#22)",
+  "focus": "HTTPS: 52 of 77 agent sites on HTTPS, 25 waiting for certificates; next: key-bootstrap PR with cl-6.security",
   "waiting_on": [
     {
       "what": "Dinis verifies promptugal.news on the organisation (docs/domain-verification.md)",
@@ -25,7 +25,7 @@
       "since": "2026-11-26T02:37Z"
     }
   ],
-  "updated": "2026-11-26T02:37Z",
+  "updated": "2026-11-26T06:07Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -158,6 +158,18 @@
     {
       "at": "2026-11-26T02:36Z",
       "event": "rules probe run 45743552530: GitHub refuses push rules on public repositories (HTTP 422); S6 goes the required-status-check way"
+    },
+    {
+      "at": "2026-11-26T02:37Z",
+      "event": "Org apply run 45743207403 failed: clearing Events' domain returned HTTP 500 mid-nudge"
+    },
+    {
+      "at": "2026-11-26T02:40Z",
+      "event": "recovery run 45743737918 succeeded; Events answers on its domain over HTTPS; #24 merged (nudge always sets the domain back)"
+    },
+    {
+      "at": "2026-11-26T06:07Z",
+      "event": "77 agent sites: 52 redirect to HTTPS, 25 still HTTP until their certificates are issued"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"

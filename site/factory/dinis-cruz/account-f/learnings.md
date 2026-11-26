@@ -7,3 +7,6 @@
 - The signature check skips the commit that adds it and everything older, so the seed's two commits are reviewed by Dinis rather than checked by CI.
 - `set -e` does not stop on a failing command in the middle of an `&&` chain: a leak-scan failure let a commit through. Run checks as separate lines before committing.
 - `--force-with-lease` is refused on a branch with no remote-tracking ref in a shallow clone; pushing the correction to a new branch avoids rewriting anything.
+- A two-call change (clear then set a Pages domain) must always run its second call: GitHub returned HTTP 500 on a clear and the run stopped with the domain possibly unset (a takeover window). Fixed in PrompTugal__IaC #24.
+- Report a run as done only after reading its result: I told Dinis the nudge had run on all 77 sites before the run had finished, and it had failed part-way.
+- GitHub refuses push rulesets (file_path_restriction) on public repositories: HTTP 422 "Source public repos cannot have push rules" (rules probe run 45743552530).
