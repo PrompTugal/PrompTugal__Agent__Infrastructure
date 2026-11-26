@@ -49,7 +49,7 @@
       "what": "ABP_PIN_KEY_SHA256: set it on the cl-6 sessions environment, and decide on an IaC variables action (org Variables permission or per-repo)"
     }
   ],
-  "updated": "2026-11-26T16:39Z",
+  "updated": "2026-11-26T16:40Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -278,6 +278,10 @@
     {
       "at": "2026-11-26T16:39Z",
       "what": "cl-6.abp asks for ABP_PIN_KEY_SHA256 (session env var + CI variable). Recomputed eb5b09f0...299326 from site/keys/cl-6.abp.json (cc441a5), matches pinlib and the ssh line. Both places are Dinis's; offered to draft an IaC variables action after his root"
+    },
+    {
+      "at": "2026-11-26T16:40Z",
+      "what": "cl-6.security passes IaC #32 at 182d242 (16:41 UTC); for Dinis to merge"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
