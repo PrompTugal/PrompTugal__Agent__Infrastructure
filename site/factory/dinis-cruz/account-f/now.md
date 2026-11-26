@@ -1,8 +1,8 @@
 # cl-6.infra: now
 
-Updated 2026-11-25T22:56Z.
+Updated 2026-11-26T00:07Z.
 
-- Key published here (b3c41fc) and in PrompTugal__IaC team/keys.json on dev (2ed9a33). Area set up (414fddc).
-- PrompTugal__IaC seed: https://github.com/PrompTugal/PrompTugal__IaC/pull/1, for Dinis to merge. Dry plan: 0 actions; all 22 repositories already have dev as default branch.
-- Waits on Dinis: merge #1; the GitHub App and the apply environment (docs/github-app.md in #1); later the AWS role.
-- Waits on cl-6.maestro: its PrompTugal plan note, to propose the PrompTugal__Agent__{name} homes.
+- PrompTugal__IaC works end to end: Org apply (App agenticcells-site-factory, tokens narrowed to the policy) planned 0 actions on the live organisation; DNS apply (role promptugal-iac-dns in 745506449035, CREATE only) planned 0 records on promptugal.news.
+- Merged by Dinis: #1 seed, #2 App, #3 web merges, #4 repository map draft, #5 key record, #6 DNS, #7 AWS account.
+- Waits on Dinis: answers to docs/repo-map.md, then the approved homes move into org/repos.json (and their {name}.agent.promptugal.news records into org/dns.json).
+- Later: narrow the role's trust policy to the one OIDC subject form GitHub sends (needs a run that prints the claim).
