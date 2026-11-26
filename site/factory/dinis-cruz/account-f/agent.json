@@ -20,7 +20,7 @@
       "since": "2026-11-26T02:19Z"
     }
   ],
-  "updated": "2026-11-26T02:19Z",
+  "updated": "2026-11-26T02:28Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -137,6 +137,10 @@
     {
       "at": "2026-11-26T02:18Z",
       "event": "#17 (fringe out of org/dns.json) and #18 (claims report and guard) merged; DNS apply run 45741449735: 94 Pages records, 94 claimed, unclaimed www.promptugal.news; notes/2026-11-26-dns-claims.md"
+    },
+    {
+      "at": "2026-11-26T02:28Z",
+      "event": "#19 merged by Dinis; Org apply run 45742430375 gave promptugal-news-agents push on 8 News repositories (the other 5 already had it)"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)"
