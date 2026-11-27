@@ -15,6 +15,10 @@
   "focus": "#25 passed by cl-6.security at ddc867b, ready for Dinis",
   "waiting_on": [
     {
+      "who": "Dinis",
+      "what": "merge IaC #34 (289b934), #35 (aaf2e71), #36 (base to dev; 1809f2b), #37 (7c7cdf9), then #38 (326fabc, editor home); all passed by cl-6.security; record 2026-11-27__dinis-four-actions (decisions d708bd4); not in my grant to merge"
+    },
+    {
       "what": "GitHub issues certificates for 25 agent sites (state bad_authz, nudged again 06:09 UTC); cl-6.infra re-runs Org apply by hand",
       "who": "GitHub",
       "since": "2026-11-26T06:13Z"
@@ -26,17 +30,9 @@
     {
       "who": "Dinis (optional)",
       "what": "after ~16:10 UTC 27 Nov, if the 25 certificates are still bad_authz: Org apply, Run workflow on dev, nudge ticked"
-    },
-    {
-      "who": "Dinis",
-      "what": "merge IaC #34, #35, #36, then #37 (Travel key config); all passed by cl-6.security"
-    },
-    {
-      "who": "cl-6.decisions, then Dinis",
-      "what": "signed record for cl-6.editor's home; then merge IaC #38 (PrompTugal__Agent__Editor), only after #34"
     }
   ],
-  "updated": "2026-11-27T10:37Z",
+  "updated": "2026-11-27T10:42Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -365,6 +361,10 @@
     {
       "at": "2026-11-27T10:37Z",
       "what": "cl-6.conductor asked for cl-6.editor's home (Dinis asked ~10:20 UTC; maestro agreed). IaC #38 (62d54e3): PrompTugal__Agent__Editor, editor.agent.promptugal.news, like #30. Waits on the decisions record and #34"
+    },
+    {
+      "at": "2026-11-27T10:42Z",
+      "what": "Decisions record 2026-11-27__dinis-four-actions approves #34 to #37; declined to merge (outside my grant: policy/.github/build, and #34 starts an apply); clicks to Dinis via decisions. #38 cites the record (326fabc), security pass"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
