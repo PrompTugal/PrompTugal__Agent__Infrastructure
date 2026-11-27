@@ -26,9 +26,13 @@
     {
       "who": "Dinis (optional)",
       "what": "after ~16:10 UTC 27 Nov, if the 25 certificates are still bad_authz: Org apply, Run workflow on dev, nudge ticked"
+    },
+    {
+      "who": "Dinis",
+      "what": "merge IaC #34 (hold dev-gate) after cl-6.security; before any other org/ merge or Org apply run"
     }
   ],
-  "updated": "2026-11-27T02:36Z",
+  "updated": "2026-11-27T02:39Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -305,6 +309,10 @@
     {
       "at": "2026-11-27T02:36Z",
       "what": "Dinis ran Gate status 45927182354 and Key bootstrap 45927209589 by hand: both success, all tokens minted. Gate posted success on dev of 9 News repos; Key bootstrap action none. Schedules still not fired. Next Org apply will create dev-gate rulesets on the 9: sections warned via conductor"
+    },
+    {
+      "at": "2026-11-27T02:39Z",
+      "what": "Sections not ready for dev-gate (data: release.sh pushes HEAD:dev; grants dev-only). IaC #34 drafted: dev-gate moved to rulesets_held on the nine; to security, then Dinis before any org/ merge. Asked conductor for cl-6.abp work/<name> grants"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
