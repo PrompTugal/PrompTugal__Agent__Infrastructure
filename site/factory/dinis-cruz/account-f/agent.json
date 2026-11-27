@@ -51,9 +51,13 @@
     {
       "who": "Dinis",
       "what": "merge IaC #33 after cl-6.security's pass"
+    },
+    {
+      "who": "Dinis",
+      "what": "News__Data SIG_BOOTSTRAP_ANCHOR (value confirmed by cl-6.security), set by hand, removed after first passing run"
     }
   ],
-  "updated": "2026-11-26T17:57Z",
+  "updated": "2026-11-27T00:56Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -310,6 +314,10 @@
     {
       "at": "2026-11-26T17:57Z",
       "what": "cl-6.security passes IaC #33 at e0f58ce (17:57 UTC); for Dinis to merge"
+    },
+    {
+      "at": "2026-11-27T00:56Z",
+      "what": "News__Data #1 merged outside key-bootstrap (0 runs), so SIG_BOOTSTRAP_ANCHOR never set and Pages verify failed (run 45919334820). Told conductor: fastest is Dinis setting it by hand (value per cl-6.security), no IaC path today; merged tree should be checked against approved head by hand"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
