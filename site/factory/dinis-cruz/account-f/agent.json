@@ -29,14 +29,10 @@
     },
     {
       "who": "Dinis",
-      "what": "merge IaC #34 (hold dev-gate), then #35 (App fast-forwards dev), then #36 (key bootstrap lands by fast-forward, after cl-6.security passes it)"
-    },
-    {
-      "who": "cl-6.security",
-      "what": "review IaC #36 at 1809f2b (key bootstrap: strict fast-forward, PATCH dev force:false, no merge API)"
+      "what": "merge IaC #34 (hold dev-gate), then #35 (App fast-forwards dev), then #36 (key bootstrap by fast-forward); all three passed by cl-6.security"
     }
   ],
-  "updated": "2026-11-27T02:55Z",
+  "updated": "2026-11-27T02:56Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -349,6 +345,10 @@
     {
       "at": "2026-11-27T02:55Z",
       "what": "cl-6.security ruled: key bootstrap never uses the merge API. IaC #36 (head 1809f2b, stacked on #35): strict fast-forward check, PATCH refs/heads/dev force:false, land token drops pull-requests write, policy and docs, 44/44. Sent to cl-6.security"
+    },
+    {
+      "at": "2026-11-27T02:56Z",
+      "what": "cl-6.security passes IaC #36 at 1809f2b. For Dinis after #34 and #35"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
