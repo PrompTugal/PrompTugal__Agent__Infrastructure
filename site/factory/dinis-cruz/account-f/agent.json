@@ -36,7 +36,7 @@
       "what": "merge IaC #35 (App fast-forwards dev) after cl-6.security, after #34"
     }
   ],
-  "updated": "2026-11-27T02:42Z",
+  "updated": "2026-11-27T02:45Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -329,6 +329,10 @@
     {
       "at": "2026-11-27T02:42Z",
       "what": "cl-6.decisions chose the App fast-forward design. IaC #35 drafted (gate-status advance + fail tags, policy, docs per-section restore, tests 42/42); to cl-6.security; Dinis merges after #34. release.sh recipe sent to conductor for abp and the nine"
+    },
+    {
+      "at": "2026-11-27T02:45Z",
+      "what": "cl-6.security: #34 PASS (289b934). #35 pass with R1 (trust only the App status) + N1/N3: fixed at cae7617 (appStatus: creator agenticcells-site-factory[bot] id 357166223, newest wins), 43/43; force-with-lease on own work/<agent> only added at 3c7ff20. Re-review asked"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
