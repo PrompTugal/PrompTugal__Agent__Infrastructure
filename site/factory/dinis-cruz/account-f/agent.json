@@ -30,9 +30,13 @@
     {
       "who": "Dinis",
       "what": "merge IaC #34 (hold dev-gate) after cl-6.security; before any other org/ merge or Org apply run"
+    },
+    {
+      "who": "Dinis / cl-6.decisions",
+      "what": "choose how the gate result reaches agents (proposal: App fast-forwards dev); then cl-6.infra drafts the gate-status change"
     }
   ],
-  "updated": "2026-11-27T02:39Z",
+  "updated": "2026-11-27T02:40Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -317,6 +321,10 @@
     {
       "at": "2026-11-27T02:39Z",
       "what": "All nine covered sections not ready for dev-gate (release.sh pushes HEAD:dev; grants dev-only). Weather, Civic, Startups not covered. Holding org/ merges; #34 makes the hold structural. Restore per section after cl-6.abp work/<agent> grants and release.sh change"
+    },
+    {
+      "at": "2026-11-27T02:40Z",
+      "what": "Agents cannot read gate status (no api.github.com). Proposed: App fast-forwards dev when work/<agent> is green and a fast-forward; agents push work/ only, read result via git ls-remote; optional gate fail tag. Needs build/, workflow, policy changes (Dinis). #25 confirmation step replaced by per-section restore PR gate. Awaiting decision; drafting nothing"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
