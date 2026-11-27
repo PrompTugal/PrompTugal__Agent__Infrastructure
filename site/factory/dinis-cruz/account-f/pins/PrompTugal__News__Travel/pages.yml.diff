@@ -1,0 +1,41 @@
+diff --git .github/workflows/pages.yml tmp/claude-0/-home-user/b21b5668-9e5c-52d3-b0b2-ff4194db3fc8/scratchpad/travel/pages.yml
+index 1dcf2ff..811587d 100644
+--- .github/workflows/pages.yml
++++ tmp/claude-0/-home-user/b21b5668-9e5c-52d3-b0b2-ff4194db3fc8/scratchpad/travel/pages.yml
+@@ -89,7 +89,7 @@ jobs:
+       # The empty tree: git reads no attributes from the checkout.
+       GIT_ATTR_SOURCE: 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+       # The pinned trusted base: dev's head on 19 Nov 2026. It is A only when GitHub's run records list no earlier run
+-      # that passed this job. Nothing (no input, no variable) overrides A. Moving this is a person's decision.
++      # that passed this job. Only SIG_BOOTSTRAP_ANCHOR overrides A: set by PrompTugal__IaC key bootstrap after an approved key pull request, deleted after the next green run (policy/key-bootstrap.json). Moving this is a person's decision.
+       TRUSTED_BASE: 75dc63dfa3aa2dc52519246067c823721902f518
+     steps:
+       - uses: actions/checkout@v4
+@@ -127,6 +127,7 @@ jobs:
+       - name: "Check 3: anchor A from GitHub's own run records"
+         env:
+           GH_TOKEN: ${{ github.token }}
++          SIG_BOOTSTRAP_ANCHOR: ${{ vars.SIG_BOOTSTRAP_ANCHOR }}
+         run: |
+           set -euo pipefail
+           die() { echo "security: $*" >&2; exit 1; }
+@@ -141,6 +142,11 @@ jobs:
+           # Every page of successful push runs on dev, newest first (travel.b@ review: a fixed window of 50 could be
+           # filled by successful runs of a pushed workflow without the security job, and then fall back to the bootstrap).
+           # Bootstrap only when GitHub lists no run at all in which the security job passed; a page cap fails, never falls back.
++          if [ -n "${SIG_BOOTSTRAP_ANCHOR:-}" ]; then
++            [[ "$SIG_BOOTSTRAP_ANCHOR" =~ ^[0-9a-f]{40}$ ]] || die "SIG_BOOTSTRAP_ANCHOR is not 40 hex digits"
++            anchor=$SIG_BOOTSTRAP_ANCHOR
++            echo "anchor set by PrompTugal__IaC (SIG_BOOTSTRAP_ANCHOR): $anchor"
++          else
+           anchor=""
+           page=1
+           while [ -z "$anchor" ]; do
+@@ -168,6 +174,7 @@ jobs:
+             anchor=$TRUSTED_BASE
+             echo "bootstrap: A is the pinned trusted base"
+           fi
++          fi
+           printf '%s\n' "$anchor" > "$RUNNER_TEMP/anchor.sha"
+           echo "A is $anchor"
+       - name: "Checks 4 to 6: ancestry, no orphans, no symlinks"

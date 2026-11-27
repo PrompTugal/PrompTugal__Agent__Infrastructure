@@ -30,9 +30,13 @@
     {
       "who": "Dinis",
       "what": "merge IaC #34 (hold dev-gate), then #35 (App fast-forwards dev), then #36 (key bootstrap by fast-forward); all three passed by cl-6.security"
+    },
+    {
+      "who": "cl-6.security",
+      "what": "review IaC #37 (Travel key config, 8198f4f) and pin Travel pages.yml (pins/PrompTugal__News__Travel, sha256 5579039307e2...) with patch 3's check-commits.mjs"
     }
   ],
-  "updated": "2026-11-27T02:56Z",
+  "updated": "2026-11-27T07:33Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -349,6 +353,10 @@
     {
       "at": "2026-11-27T02:56Z",
       "what": "cl-6.security passes IaC #36 at 1809f2b. For Dinis after #34 and #35"
+    },
+    {
+      "at": "2026-11-27T07:33Z",
+      "what": "cl-6.security asked for Travel's key route. IaC #37: Travel repository_config (ssh.public_key_pem, pem, no status, superseded field); cl-6.travel's patch 1 passes checkKeys against its home key. Reviewed Travel pages.yml (dev 279727a plus SIG_BOOTSTRAP_ANCHOR override in Check 3) in my home for pinning"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
