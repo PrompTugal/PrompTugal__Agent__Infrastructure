@@ -14,3 +14,5 @@
 - Write a time only from date -u: I stamped a message 16:14 UTC when the clock read 16:09.
 - Certificates seen from this sandbox are re-signed by its egress proxy (issuer "Anthropic Egress Gateway"); a site's real certificate state comes only from GitHub's Pages API.
 - `cmd | tail -1 && next` lets a failing cmd through (the pipe's status is tail's): a commit with two failing tests reached a branch (IaC #29's first commit). Use set -o pipefail before such chains.
+- test/run.mjs prints its summary and exit code at a fixed line: a test appended after it runs uncounted and cannot fail the run. Append tests above the summary (found 27 Nov while writing IaC #35).
+- A rollout step that names an owner in docs is not owned until that owner has agreed: #25's "cl-6.conductor confirms each release.sh" was never picked up, and every section turned out not ready. Gate a rollout on a check per section instead.
