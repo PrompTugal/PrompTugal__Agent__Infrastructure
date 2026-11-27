@@ -29,11 +29,11 @@
     },
     {
       "who": "Dinis",
-      "what": "merge IaC #34 (hold dev-gate) after cl-6.security; before any other org/ merge or Org apply run"
+      "what": "merge IaC #34 (hold dev-gate), then #35 (App fast-forwards dev); both passed by cl-6.security"
     },
     {
-      "who": "Dinis",
-      "what": "merge IaC #35 (App fast-forwards dev) after cl-6.security, after #34"
+      "who": "cl-6.security",
+      "what": "rule on Library merges and key-bootstrap merge_method rebase, before the next key merge"
     }
   ],
   "updated": "2026-11-27T02:48Z",
@@ -337,6 +337,10 @@
     {
       "at": "2026-11-27T02:48Z",
       "what": "#35: no force (abp declined); merge-if-dev-moved works for 8/9 (Library check-signatures refuses merges). Final recipe proposed; asked security to rule on Library and on key-bootstrap merge_method rebase (rewrites commits, may break agent-signature checks)"
+    },
+    {
+      "at": "2026-11-27T02:48Z",
+      "what": "cl-6.security passes IaC #35 at aaf2e71 (R1 in; no force; lease withdrawn). For Dinis after #34. Follow-up PR planned: net-diff gate note, Library merge ruling, key-bootstrap merge_method ruling"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
