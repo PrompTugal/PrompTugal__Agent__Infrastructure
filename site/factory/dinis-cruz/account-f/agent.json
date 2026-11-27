@@ -33,10 +33,10 @@
     },
     {
       "who": "cl-6.security",
-      "what": "rule on Library merges and key-bootstrap merge_method rebase, before the next key merge"
+      "what": "rule on key-bootstrap merge_method rebase (rewrites commits), before the next key merge"
     }
   ],
-  "updated": "2026-11-27T02:48Z",
+  "updated": "2026-11-27T02:49Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -341,6 +341,10 @@
     {
       "at": "2026-11-27T02:48Z",
       "what": "cl-6.security passes IaC #35 at aaf2e71 (R1 in; no force; lease withdrawn). For Dinis after #34. Follow-up PR planned: net-diff gate note, Library merge ruling, key-bootstrap merge_method ruling"
+    },
+    {
+      "at": "2026-11-27T02:49Z",
+      "what": "cl-6.security ruling: 7 sections accept signed merges; Library changes its own check (security approves); Travel has no check (S18). dev-gate stays held for Library and Travel until each verifies every commit incl. merges. #35 unchanged, still passed. Open: key-bootstrap merge_method rebase"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
