@@ -28,7 +28,7 @@
       "what": "after ~16:10 UTC 27 Nov, if the 25 certificates are still bad_authz: Org apply, Run workflow on dev, nudge ticked"
     }
   ],
-  "updated": "2026-11-27T01:18Z",
+  "updated": "2026-11-27T02:36Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -301,6 +301,10 @@
     {
       "at": "2026-11-27T01:18Z",
       "what": "promptugal.news verified for the PrompTugal org (Dinis, TXT in Route 53 by hand). News__Data: Dinis set SIG_BOOTSTRAP_ANCHOR=8c861c6 (security and infra both checked: tree equals approved head), Pages #195 passed, v0.1.156 live, variable deleted. Key-bootstrap/gate-status schedules not yet fired"
+    },
+    {
+      "at": "2026-11-27T02:36Z",
+      "what": "Dinis ran Gate status 45927182354 and Key bootstrap 45927209589 by hand: both success, all tokens minted. Gate posted success on dev of 9 News repos; Key bootstrap action none. Schedules still not fired. Next Org apply will create dev-gate rulesets on the 9: sections warned via conductor"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
