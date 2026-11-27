@@ -26,38 +26,14 @@
     },
     {
       "who": "Dinis",
-      "what": "merge IaC #28 (certificate nudge cap; build/ and .github/)"
-    },
-    {
-      "who": "Dinis",
-      "what": "merge IaC #28; then cl-6.infra merges #29 (London strikes) at once"
-    },
-    {
-      "who": "cl-6.decisions",
-      "what": "signed D-SOCIAL-START, then merge IaC #30 (after #28)"
-    },
-    {
-      "who": "Dinis",
-      "what": "merge IaC #31 (schedules) after adding the App's five permissions"
-    },
-    {
-      "who": "Dinis",
-      "what": "merge IaC #32 after cl-6.security's pass (ideally after #28, before #29/#30); until then dispatch DNS apply after each new site's Org apply"
-    },
-    {
-      "who": "Dinis",
       "what": "ABP_PIN_KEY_SHA256 = d893179d...322318: set on the cl-6 sessions environment; root for the IaC repository-variable PR. And choose (a) or (b) to protect Dev abp-pins.yml"
-    },
-    {
-      "who": "Dinis",
-      "what": "merge IaC #33 after cl-6.security's pass"
     },
     {
       "who": "Dinis",
       "what": "News__Data SIG_BOOTSTRAP_ANCHOR (value confirmed by cl-6.security), set by hand, removed after first passing run"
     }
   ],
-  "updated": "2026-11-27T00:56Z",
+  "updated": "2026-11-27T01:09Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -318,6 +294,10 @@
     {
       "at": "2026-11-27T00:56Z",
       "what": "News__Data #1 merged outside key-bootstrap (0 runs), so SIG_BOOTSTRAP_ANCHOR never set and Pages verify failed (run 45919334820). Told conductor: fastest is Dinis setting it by hand (value per cl-6.security), no IaC path today; merged tree should be checked against approved head by hand"
+    },
+    {
+      "at": "2026-11-27T01:09Z",
+      "what": "Dinis merged #28,#31,#32,#33 (~00:57) and accepted the App permissions. cl-6.infra merged #29 (3d0d444) and #30 (a8aee8c) under their records; Org apply created London__Strikes and Social; DNS followed via workflow_run; both names resolve. Schedules not yet fired"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
