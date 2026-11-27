@@ -36,7 +36,7 @@
       "what": "merge IaC #35 (App fast-forwards dev) after cl-6.security, after #34"
     }
   ],
-  "updated": "2026-11-27T02:45Z",
+  "updated": "2026-11-27T02:48Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -333,6 +333,10 @@
     {
       "at": "2026-11-27T02:45Z",
       "what": "cl-6.security: #34 PASS (289b934). #35 pass with R1 (trust only the App status) + N1/N3: fixed at cae7617 (appStatus: creator agenticcells-site-factory[bot] id 357166223, newest wins), 43/43; force-with-lease on own work/<agent> only added at 3c7ff20. Re-review asked"
+    },
+    {
+      "at": "2026-11-27T02:48Z",
+      "what": "#35: no force (abp declined); merge-if-dev-moved works for 8/9 (Library check-signatures refuses merges). Final recipe proposed; asked security to rule on Library and on key-bootstrap merge_method rebase (rewrites commits, may break agent-signature checks)"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
