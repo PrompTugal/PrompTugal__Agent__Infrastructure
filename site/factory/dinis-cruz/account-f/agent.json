@@ -15,11 +15,6 @@
   "focus": "#25 passed by cl-6.security at ddc867b, ready for Dinis",
   "waiting_on": [
     {
-      "what": "Dinis verifies promptugal.news on the organisation (docs/domain-verification.md)",
-      "who": "Dinis",
-      "since": "2026-11-26T02:20Z"
-    },
-    {
       "what": "GitHub issues certificates for 25 agent sites (state bad_authz, nudged again 06:09 UTC); cl-6.infra re-runs Org apply by hand",
       "who": "GitHub",
       "since": "2026-11-26T06:13Z"
@@ -29,11 +24,11 @@
       "what": "ABP_PIN_KEY_SHA256 = d893179d...322318: set on the cl-6 sessions environment; root for the IaC repository-variable PR. And choose (a) or (b) to protect Dev abp-pins.yml"
     },
     {
-      "who": "Dinis",
-      "what": "News__Data SIG_BOOTSTRAP_ANCHOR (value confirmed by cl-6.security), set by hand, removed after first passing run"
+      "who": "Dinis (optional)",
+      "what": "after ~16:10 UTC 27 Nov, if the 25 certificates are still bad_authz: Org apply, Run workflow on dev, nudge ticked"
     }
   ],
-  "updated": "2026-11-27T01:12Z",
+  "updated": "2026-11-27T01:18Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -302,6 +297,10 @@
     {
       "at": "2026-11-27T01:12Z",
       "what": "Design note to cl-6.designer (feedback lane rate limit): lanes append to SG/Send dev.send.sgraph.ai, not ours. Options: ask SG/Send for per-token limits (Dinis), or an AWS append proxy at lanes.promptugal.news holding the token server-side (Dinis: spend, deploy role, policy). Nothing changed"
+    },
+    {
+      "at": "2026-11-27T01:18Z",
+      "what": "promptugal.news verified for the PrompTugal org (Dinis, TXT in Route 53 by hand). News__Data: Dinis set SIG_BOOTSTRAP_ANCHOR=8c861c6 (security and infra both checked: tree equals approved head), Pages #195 passed, v0.1.156 live, variable deleted. Key-bootstrap/gate-status schedules not yet fired"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
