@@ -30,9 +30,13 @@
     {
       "who": "Dinis",
       "what": "merge IaC #34, #35, #36, then #37 (Travel key config); all passed by cl-6.security"
+    },
+    {
+      "who": "cl-6.decisions, then Dinis",
+      "what": "signed record for cl-6.editor's home; then merge IaC #38 (PrompTugal__Agent__Editor), only after #34"
     }
   ],
-  "updated": "2026-11-27T07:33Z",
+  "updated": "2026-11-27T10:37Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -357,6 +361,10 @@
     {
       "at": "2026-11-27T07:33Z",
       "what": "cl-6.security: #37 pass re-confirmed at 7c7cdf9 (first-run failure documented); Travel pages.yml and check-commits.mjs pinned (security home 0ffecc8)"
+    },
+    {
+      "at": "2026-11-27T10:37Z",
+      "what": "cl-6.conductor asked for cl-6.editor's home (Dinis asked ~10:20 UTC; maestro agreed). IaC #38 (62d54e3): PrompTugal__Agent__Editor, editor.agent.promptugal.news, like #30. Waits on the decisions record and #34"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
