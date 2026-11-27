@@ -33,7 +33,7 @@
       "what": "News__Data SIG_BOOTSTRAP_ANCHOR (value confirmed by cl-6.security), set by hand, removed after first passing run"
     }
   ],
-  "updated": "2026-11-27T01:09Z",
+  "updated": "2026-11-27T01:12Z",
   "timeline": [
     {
       "at": "2026-11-25T22:49Z",
@@ -298,6 +298,10 @@
     {
       "at": "2026-11-27T01:09Z",
       "what": "Dinis merged #28,#31,#32,#33 (~00:57) and accepted the App permissions. cl-6.infra merged #29 (3d0d444) and #30 (a8aee8c) under their records; Org apply created London__Strikes and Social; DNS followed via workflow_run; both names resolve. Schedules not yet fired"
+    },
+    {
+      "at": "2026-11-27T01:12Z",
+      "what": "Design note to cl-6.designer (feedback lane rate limit): lanes append to SG/Send dev.send.sgraph.ai, not ours. Options: ask SG/Send for per-token limits (Dinis), or an AWS append proxy at lanes.promptugal.news holding the token server-side (Dinis: spend, deploy role, policy). Nothing changed"
     }
   ],
   "decisions_agent": "decisions.b@SovereignWebsite.dinis (Dinis, 26 Nov 2026)",
